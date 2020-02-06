@@ -16,7 +16,6 @@ const Header = ({ currentUser, hidden }) => (
             <Logo className='logo'/>
         </Link>
 
-        { console.log(hidden) }
 
         <div className='options'>
             <Link className='option' to='/shop'>SHOP</Link>
