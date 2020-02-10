@@ -41,6 +41,7 @@ const CheckoutPage = ({ cartItems, total}) => (
            }
 
            <div className="total">
+               
                <span>TOTAL: ${total} </span>
            </div>
        </div>
