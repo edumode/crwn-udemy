@@ -64,6 +64,11 @@ const config = {
       }
     })
 
+    return transformedCollections.reduce((accumulator, collection) => {
+      accumulator[collection.title.toLowerCase()] = collection
+      return accumulator
+    }, {})
+
   }
 
   firebase.initializeApp(config)
